@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://mapasgen.com/article/en-free">
+<link rel="alternate" hreflang="de" href="https://mapasgen.com/articles/de-pro.html">
+<link rel="alternate" hreflang="en" href="https://mapasgen.com/articles/en-pro.html">
+<link rel="alternate" hreflang="es" href="https://mapasgen.com/articles/es-pro.html">
+<link rel="alternate" hreflang="fr" href="https://mapasgen.com/articles/fr-pro.html">
+<link rel="alternate" hreflang="he" href="https://mapasgen.com/articles/he-pro.html">
+<link rel="alternate" hreflang="pt" href="https://mapasgen.com/articles/pt-pro.html">
+<link rel="alternate" hreflang="ru" href="https://mapasgen.com/articles/ru-pro.html">
+<link rel="alternate" hreflang="uk" href="https://mapasgen.com/articles/uk-pro.html">
+<link rel="alternate" hreflang="x-default" href="https://mapasgen.com/articles/en-pro.html">
+<title>How to Find Ancestors in Europe — Full Guide | MAPA'S</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#E8E8DF;--green:#2D5740;--green-light:#3D6B4F;--green-pale:#D4E0D8;--orange:#F05A22;--orange-light:#FF7A45;--white:#FFFFFF;--ink:#1A2A1E;--muted:#5A6A5E;--border:#C8CEC9;--card:#FFFFFF}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif;font-size:16px;line-height:1.7;overflow-x:hidden}
+.progress-bar{position:fixed;top:0;left:0;height:3px;width:0%;background:var(--orange);z-index:300;transition:width .1s}
+.cover{min-height:100vh;background:#1c3828;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 40px 140px;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(240,90,34,.2) 0%,transparent 50%),radial-gradient(ellipse at 75% 20%,rgba(45,87,64,.6) 0%,transparent 50%)}
+.cover::after{content:'';position:absolute;bottom:0;left:0;right:0;height:100px;background:linear-gradient(to bottom,transparent,var(--bg))}
+.cover-inner{position:relative;z-index:1}
+.cover-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:rgba(255,255,255,.6);border:1px solid rgba(255,255,255,.25);padding:6px 18px;border-radius:40px;margin-bottom:40px;opacity:0;animation:fadeUp .7s ease .2s forwards}
+.cover h1{font-family:'Playfair Display',serif;font-size:clamp(40px,7vw,80px);font-weight:700;color:#fff;line-height:1.1;margin-bottom:20px;opacity:0;animation:fadeUp .7s ease .4s forwards}
+.cover h1 em{color:var(--orange);font-style:italic}
+.cover-sub{font-size:clamp(15px,2vw,19px);font-weight:300;color:rgba(255,255,255,.7);max-width:580px;margin:0 auto 48px;opacity:0;animation:fadeUp .7s ease .55s forwards}
+.cover-meta{display:flex;align-items:center;gap:20px;justify-content:center;opacity:0;animation:fadeUp .7s ease .7s forwards}
+.tag-pro{background:var(--orange);color:#fff;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:8px 20px;border-radius:40px}
+.tag-info{font-size:12px;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.sticky-nav{position:sticky;top:0;background:rgba(232,232,223,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:12px 40px;z-index:100;display:flex;justify-content:space-between;align-items:center}
+.sticky-nav-title{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.sticky-nav-tag{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#fff;background:var(--green);padding:4px 12px;border-radius:40px}
+.wrapper{max-width:780px;margin:0 auto;padding:72px 40px 40px}
+@media(max-width:600px){.wrapper{padding:52px 20px 20px}.sticky-nav{padding:12px 20px}}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:4px;padding:44px;margin-bottom:72px;position:relative}
+.toc::after{content:'';position:absolute;top:6px;left:6px;right:-6px;bottom:-6px;border:1px solid var(--green-pale);border-radius:4px;z-index:-1}
+.toc-label{font-size:10px;font-weight:700;letter-spacing:.35em;text-transform:uppercase;color:var(--orange);margin-bottom:28px}
+.toc-row{display:flex;align-items:baseline;gap:0;margin-bottom:12px;text-decoration:none;color:var(--ink);transition:color .2s;cursor:pointer}
+.toc-row:hover{color:var(--orange)}
+.toc-n{font-family:'Playfair Display',serif;font-style:italic;font-size:13px;color:var(--orange);min-width:32px;flex-shrink:0}
+.toc-dots{flex:1;border-bottom:1px dotted var(--border);margin:0 10px;position:relative;top:-4px}
+.toc-text{font-size:16px;flex:0 0 auto;max-width:460px}
+.toc-pg{font-size:11px;color:var(--muted);flex-shrink:0;font-weight:500}
+.toc-free{opacity:.5}
+.section{margin-bottom:72px}
+.ch-marker{display:flex;align-items:center;gap:14px;margin-bottom:10px;scroll-margin-top:48px}
+.ch-n{font-family:'Playfair Display',serif;font-style:italic;font-size:12px;color:var(--orange);white-space:nowrap;flex-shrink:0}
+.ch-rule{flex:1;height:1px;background:var(--border)}
+h2{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,34px);font-weight:700;line-height:1.2;color:var(--green);margin-bottom:24px}
+h3{font-size:17px;font-weight:700;color:var(--ink);margin-top:36px;margin-bottom:12px}
+h4{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-top:24px;margin-bottom:8px}
+p{font-size:16.5px;line-height:1.8;color:#2A3A2E;margin-bottom:18px}
+p strong{font-weight:600;color:var(--ink)} p em{color:var(--green-light)}
+.dropcap::first-letter{font-family:'Playfair Display',serif;font-size:4.2em;font-weight:700;color:var(--orange);float:left;line-height:.78;margin-right:8px;margin-top:6px}
+.pull{border-left:3px solid var(--orange);background:rgba(240,90,34,.06);padding:20px 28px;margin:36px 0;font-family:'Playfair Display',serif;font-style:italic;font-size:20px;line-height:1.5;color:var(--green)}
+.steps{margin:28px 0}
+.step{display:flex;gap:18px;margin-bottom:24px;align-items:flex-start}
+.step-dot{width:34px;height:34px;border-radius:50%;background:var(--green);color:#fff;font-family:'Playfair Display',serif;font-style:italic;font-size:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.step-body{flex:1}.step-title{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:4px}
+.step-text{font-size:16px;line-height:1.7;color:#2A3A2E;margin:0}
+.res-box{background:var(--card);border:1px solid var(--border);border-radius:4px;padding:26px 30px;margin:28px 0}
+.res-label{font-size:9px;font-weight:700;letter-spacing:.4em;text-transform:uppercase;color:var(--orange);margin-bottom:16px}
+.res-list{list-style:none}
+.res-list li{font-size:16px;line-height:1.6;padding:9px 0;border-bottom:1px solid rgba(200,206,201,.5);display:flex;gap:12px;align-items:flex-start}
+.res-list li:last-child{border-bottom:none}
+.res-list li::before{content:'→';color:var(--orange);flex-shrink:0;margin-top:1px}
+.res-url{font-size:11px;color:var(--green-light);display:block;font-weight:500;margin-top:2px}
+.note{background:var(--green);color:#fff;padding:24px 28px;border-radius:4px;margin:32px 0}
+.note-label{font-size:9px;font-weight:700;letter-spacing:.4em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:8px}
+.note p{color:rgba(255,255,255,.88);font-size:15.5px;margin:0;line-height:1.7}
+.note strong{color:#fff}
+.warn{background:#FFF8F0;border:1.5px solid var(--orange);border-radius:4px;padding:22px 26px;margin:28px 0}
+.warn-label{font-size:9px;font-weight:700;letter-spacing:.4em;text-transform:uppercase;color:var(--orange);margin-bottom:8px}
+.warn p{font-size:15.5px;margin:0;color:#3A2A1A;line-height:1.7}
+.tpl{background:#EFF4F1;border-left:4px solid var(--green);border-radius:0 4px 4px 0;padding:24px 28px;margin:24px 0;font-family:'Inter',sans-serif;font-size:14px;line-height:2;color:#1A2A1E}
+.tpl-label{font-size:9px;font-weight:700;letter-spacing:.4em;text-transform:uppercase;color:var(--green-light);margin-bottom:14px}
+.tpl .ph{color:var(--orange);font-style:italic}
+.country-block{border:1px solid var(--border);margin-bottom:20px;background:var(--card);border-radius:4px;overflow:hidden}
+.country-header{background:var(--green);color:#fff;padding:16px 22px;display:flex;align-items:center;gap:12px}
+.cf{font-size:22px}.cn{font-family:'Playfair Display',serif;font-size:19px;color:#fff}
+.country-body{padding:22px}
+.country-body p{font-size:16px;margin-bottom:12px;color:#2A3A2E;line-height:1.7}
+.country-body p:last-child{margin-bottom:0}
+.data-tbl{width:100%;border-collapse:collapse;margin:18px 0;font-size:14.5px}
+.data-tbl th{font-size:9px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--orange);text-align:left;padding:9px 12px;border-bottom:2px solid var(--border)}
+.data-tbl td{font-size:15px;padding:9px 12px;border-bottom:1px solid rgba(200,206,201,.4);vertical-align:top;line-height:1.6}
+.data-tbl tr:hover td{background:rgba(45,87,64,.03)}
+ul.blist{list-style:none;margin:16px 0 22px}
+ul.blist li{font-size:16px;line-height:1.7;padding:5px 0 5px 22px;position:relative;border-bottom:1px solid rgba(200,206,201,.3)}
+ul.blist li::before{content:'◆';position:absolute;left:0;color:var(--orange);font-size:7px;top:13px}
+.divider{display:flex;align-items:center;gap:18px;margin:64px 0}
+.divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--border)}
+.divider-dot{color:var(--orange);font-size:14px;flex-shrink:0}
+.footer{text-align:center;padding:48px 40px 64px;border-top:1px solid var(--border);margin-top:72px}
+.footer-logo{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--green);letter-spacing:.05em;margin-bottom:8px}
+.footer-copy{font-size:11px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+
+.art-logo,.art-ft-logo{direction:ltr;unicode-bidi:isolate}
+.art-cta{background:#1C3D28;border-radius:20px;padding:40px 24px;text-align:center;margin:32px 16px}
+.art-cta-tag{color:#B8924A;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin:0 0 12px}
+.art-cta-h{color:#F5F1E8;font-family:Georgia,serif;font-size:1.5rem;font-weight:700;line-height:1.3;margin:0 0 12px}
+.art-cta-h em{color:#B8924A;font-style:normal}
+.art-cta-sub{color:rgba(245,241,232,.75);font-size:.9rem;margin:0 0 24px}
+.art-cta-btn{display:inline-block;background:#B8924A;color:#F5F1E8!important;font-weight:700;font-size:.95rem;text-decoration:none!important;padding:14px 32px;border-radius:100px}
+.art-cta-btn:hover{background:#a07d40}
+@media(min-width:700px){.art-cta{padding:56px 48px}.art-cta-h{font-size:1.9rem}}
+</style>
+
+<script>
+// ── MAPASGEN Content Protection ──────────────────────────────────────────
+(function(){
+  // Disable right-click
+  document.addEventListener('contextmenu', function(e){ e.preventDefault(); return false; });
+
+  // Disable keyboard shortcuts: Ctrl/Cmd+C, S, A, P, U, Shift+I (DevTools)
+  document.addEventListener('keydown', function(e){
+    var k = e.key.toLowerCase();
+    if ((e.ctrlKey || e.metaKey) && (k==='c'||k==='s'||k==='a'||k==='p'||k==='u')) {
+      e.preventDefault(); return false;
+    }
+    if (e.key==='F12') { e.preventDefault(); return false; }
+    if ((e.ctrlKey||e.metaKey) && e.shiftKey && (k==='i'||k==='j'||k==='c')) {
+      e.preventDefault(); return false;
+    }
+  });
+
+  // Disable drag
+  document.addEventListener('dragstart', function(e){ e.preventDefault(); return false; });
+
+  // Disable print via Ctrl+P
+  window.addEventListener('beforeprint', function(e){ e.stopImmediatePropagation(); return false; });
+})();
+</script>
+<style>
+/* Disable text selection and image drag */
+body, p, h1, h2, h3, h4, h5, h6, span, li, td, th, div {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+img { pointer-events: none; -webkit-user-drag: none; }
+</style>
+
+</head>
+<body>
+<style>body{padding-top:52px}</style><header dir="ltr" style="background:#1A2C1E;position:fixed;top:0;left:0;right:0;z-index:999;border-bottom:1px solid rgba(184,149,63,.2)"><div style="max-width:780px;margin:0 auto;padding:0 20px;height:52px;display:flex;align-items:center;justify-content:space-between"><a href="https://mapasgen.com" style="display:flex;align-items:center;gap:8px;text-decoration:none"><img src="/pwa-192x192.png" alt="MAPASGEN" width="28" height="28" style="border-radius:6px"><span style="font-family:Georgia,serif;font-weight:700;font-size:.95rem;letter-spacing:.05em;color:#F5F0E8">MAPASGEN</span></a><a href="https://mapasgen.com/learn" style="font-family:sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#B8953F;text-decoration:none">← All articles</a></div></header>
+<div class="progress-bar" id="progress"></div>
+<div class="cover"><div class="cover-inner">
+  <div class="cover-badge">Practical Guide by MAPA'S</div>
+  <h1>How to Find Ancestors<br>in <em>Europe</em></h1>
+  <p class="cover-sub">Archive requests · Reading records · All EU regions · DNA genealogy · Citizenship by descent</p>
+  <div class="cover-meta"><span class="tag-pro">Pro</span><span class="tag-info">full edition · sections vi–x</span></div>
+</div></div>
+<div class="sticky-nav">
+  <span class="sticky-nav-title">How to Find Ancestors in Europe — Full Guide</span>
+  <span class="sticky-nav-tag">Pro</span>
+</div>
+<div class="wrapper">
+<nav class="toc"><div class="toc-label">Contents</div>
+  <a class="toc-row toc-free" href="#free"><span class="toc-n">I–V.</span><span class="toc-text">Basic sections (free edition)</span><span class="toc-dots"></span><span class="toc-pg">Free</span></a>
+<a class="toc-row" href="#vi"><span class="toc-n">VI.</span><span class="toc-text">Writing directly to archives</span><span class="toc-dots"></span><span class="toc-pg">→</span></a>
+<a class="toc-row" href="#vi"><span class="toc-n">VII.</span><span class="toc-text">Reading historic records and church books</span><span class="toc-dots"></span><span class="toc-pg">→</span></a>
+<a class="toc-row" href="#vi"><span class="toc-n">VIII.</span><span class="toc-text">Country by country: full EU regional guide</span><span class="toc-dots"></span><span class="toc-pg">→</span></a>
+<a class="toc-row" href="#ix"><span class="toc-n">IX.</span><span class="toc-text">DNA genealogy: advanced level</span><span class="toc-dots"></span><span class="toc-pg">→</span></a>
+<a class="toc-row" href="#x"><span class="toc-n">X.</span><span class="toc-text">Citizenship by descent: what you need to prove</span><span class="toc-dots"></span><span class="toc-pg">→</span></a>
+
+</nav>
+
+<div class="section" id="vi">
+  <div class="ch-marker"><span class="ch-n">Section VI</span><div class="ch-rule"></div></div>
+  <h2>VI. Writing directly to archives</h2>
+  <p class="dropcap">Direct contact with an archive opens access to material not found in any online database. Each country has its own record-keeping system, language of official correspondence, timelines and fees.</p>
+  <h3>Three types of archives in Europe</h3>
+  <p><strong>State archives — civil acts, censuses, tax records, military lists, court documents.</strong></p>
+  <p><strong>Church archives — vital records before civil registration. In Germany: Bistumsarchiv (Catholic), Landeskirchliches Archiv (Lutheran). Often independent from state archives.</strong></p>
+  <p><strong>Municipal archives (Stadtarchiv, Archivio storico comunale) — town council records, resident lists, professional registers.</strong></p>
+  <div class="note"><div class="note-label">Before writing a request</div><p>Make sure you have: exact name of ancestor (all spelling variants), approximate years of life (±10 years), specific locality, religion (this determines which archive — state or church). Without this data the archive cannot conduct a search.</p></div>
+  <h3>Request templates</h3>
+  <div class="tpl"><div class="tpl-label">Template · German · Standesamt</div>
+Sehr geehrte Damen und Herren,<br><br>
+ich bitte Sie um eine Recherche bezüglich folgender Person:<br><br>
+Name: <span class="ph">[surname / all variants]</span><br>
+Vorname: <span class="ph">[first name]</span><br>
+Geburtsjahr (ca.): <span class="ph">[year ± 10]</span><br>
+Geburtsort: <span class="ph">[locality name]</span><br>
+Konfession: <span class="ph">[evangelisch / katholisch / jüdisch]</span><br>
+Gesuchte Dokumente: <span class="ph">[Geburtsurkunde / Sterbeurkunde / Heiratsurkunde]</span><br><br>
+Bitte teilen Sie mir die anfallenden Gebühren mit.<br><br>
+Mit freundlichen Grüßen, <span class="ph">[name, address, email]</span></div>
+  <div class="tpl"><div class="tpl-label">Template · Polish · Archiwum Państwowe</div>
+Szanowni Państwo,<br><br>
+zwracam się z prośbą o przeprowadzenie kwerendy genealogicznej:<br><br>
+Nazwisko: <span class="ph">[surname]</span> · Imię: <span class="ph">[first name]</span><br>
+Rok urodzenia (ok.): <span class="ph">[year ± 10]</span> · Miejscowość: <span class="ph">[locality]</span><br>
+Wyznanie: <span class="ph">[rz.-kat. / ewangelickie / prawosławne]</span><br>
+Dokumenty: <span class="ph">[metryka urodzenia / ślubu / zgonu]</span><br><br>
+Proszę o informację o opłatach.<br><br>
+Z poważaniem, <span class="ph">[name, address, email]</span></div>
+  <div class="tpl"><div class="tpl-label">Template · Italian · Archivio di Stato</div>
+Gentili Signore e Signori,<br><br>
+desidero richiedere una ricerca riguardante:<br><br>
+Cognome: <span class="ph">[surname]</span> · Nome: <span class="ph">[first name]</span><br>
+Anno di nascita (ca.): <span class="ph">[year]</span> · Comune: <span class="ph">[town, province]</span><br>
+Documenti richiesti: <span class="ph">[atto di nascita / matrimonio / morte]</span><br><br>
+Vi prego di comunicarmi i costi.<br><br>
+Distinti saluti, <span class="ph">[name, address, email]</span></div>
+  <div class="tpl"><div class="tpl-label">Template · Lithuanian · LVIA</div>
+Gerbiami,<br><br>
+prašau atlikti genealoginę paiešką:<br><br>
+Pavardė: <span class="ph">[surname]</span> · Vardas: <span class="ph">[first name]</span><br>
+Gimimo metai: <span class="ph">[year]</span> · Vietovė: <span class="ph">[locality]</span><br>
+Tikėjimas: <span class="ph">[katalikų / evangelikų / stačiatikių]</span><br><br>
+Prašau informuoti apie mokesčius.<br><br>
+Pagarbiai, <span class="ph">[name, address, email]</span></div>
+  <h3>Timelines and fees</h3>
+  <table class="data-tbl"><tr><th>Archive</th><th>Response</th><th>Fee</th></tr>
+  <tr><td>Germany, Standesamt</td><td>4–12 weeks</td><td>€8–30</td></tr>
+  <tr><td>Germany, church archive</td><td>2–8 weeks</td><td>€5–20</td></tr>
+  <tr><td>Poland, Archiwum Państwowe</td><td>1–3 months</td><td>Free or nominal</td></tr>
+  <tr><td>Lithuania, LVIA</td><td>2–6 months</td><td>€15–50</td></tr>
+  <tr><td>Austria, Landesarchiv</td><td>4–8 weeks</td><td>€10–40</td></tr>
+  <tr><td>Italy, Archivio di Stato</td><td>2–6 months</td><td>€5–25</td></tr>
+  <tr><td>France, Archives dép.</td><td>1–3 months</td><td>Mostly free</td></tr></table>
+  <div class="warn"><div class="warn-label">If the archive does not reply</div><p>Wait at least 3 months before a follow-up. In the follow-up letter, refer to the first (state the date sent). If silence continues — try contacting by telephone. As a last resort, hire a local genealogist for a personal visit.</p></div>
+</div>
+<div class="divider"><div class="divider-dot">✦</div></div>
+
+<div class="section" id="vii">
+  <div class="ch-marker"><span class="ch-n">Section VII</span><div class="ch-rule"></div></div>
+  <h2>VII. Reading historic records and church books</h2>
+  <p>Finding a digitised document is half the work. The other half is reading it. Historic documents are written in multiple scripts, in multiple languages, with characteristic abbreviations.</p>
+  <h3>Main types of records</h3>
+  <p>Baptism record: date of baptism (not birth — they could differ by 1–3 days), child's name, parents' names (mother's maiden name), godparents' names. Godparents were often close relatives — this helps reconstruct social networks.</p>
+  <p>Marriage record: names of bride and groom with places of origin, date and location, names of witnesses. German records often noted status — widower/widow, first/second marriage.</p>
+  <h3>Scripts and writing systems</h3>
+  <p><strong>Kurrent:</strong> Kurrent: handwritten Gothic script used in German-speaking areas from the 16th to mid-20th century. Completely unlike modern Latin handwriting.</p>
+  <p><strong>Sütterlin:</strong> Sütterlin: simplified Kurrent, taught in German schools until 1941. Documents from the first half of the 20th century are often written in it.</p>
+  <h3>Main Latin abbreviations in church books</h3>
+  <table class="data-tbl"><tr><th>Abbr.</th><th>Full form</th><th>Meaning</th></tr>
+  <tr><td><strong>b. / bapt.</strong></td><td>baptizatus/a</td><td>baptised</td></tr>
+  <tr><td><strong>n. / nat.</strong></td><td>natus/a</td><td>born</td></tr>
+  <tr><td><strong>ob. / obit</strong></td><td>obiit</td><td>died</td></tr>
+  <tr><td><strong>sep. / sepult.</strong></td><td>sepultus/a</td><td>buried</td></tr>
+  <tr><td><strong>cop. / conj.</strong></td><td>copulati / conjuges</td><td>married / spouses</td></tr>
+  <tr><td><strong>leg. / legit.</strong></td><td>legitimus/a</td><td>legitimate</td></tr>
+  <tr><td><strong>ill. / illegit.</strong></td><td>illegitimus/a</td><td>illegitimate</td></tr>
+  <tr><td><strong>vid. / vidua</strong></td><td>viduus / vidua</td><td>widower / widow</td></tr>
+  <tr><td><strong>fil. / filia</strong></td><td>filius / filia</td><td>son / daughter</td></tr>
+  <tr><td><strong>patr.</strong></td><td>patrini</td><td>godparents</td></tr>
+  <tr><td><strong>test.</strong></td><td>testes</td><td>witnesses</td></tr>
+  <tr><td><strong>h. l.</strong></td><td>hujus loci</td><td>local</td></tr></table>
+  <p>Julian and Gregorian calendars: Orthodox documents use the "Old Style". In the 19th century the difference is 12 days, in the 20th — 13 days. Add 13 days to an Old Style date to get the Gregorian date.</p>
+  <div class="note"><div class="note-label">Reading practice</div><p>Start with a document where you already know some details — this lets you calibrate the scribe's handwriting. One scribe kept a register for years: once you master their hand on one page, the entire volume becomes readable.</p></div>
+</div>
+<div class="divider"><div class="divider-dot">✦</div></div>
+
+<div class="section" id="viii">
+  <div class="ch-marker"><span class="ch-n">Section VIII</span><div class="ch-rule"></div></div>
+  <h2>VIII. Country by country: full EU regional guide</h2>
+  <p>Each country has its own archival system, its own timeframes for civil registration, its own key portals and specific challenges.</p>
+  <div class="country-block"><div class="country-header"><span class="cf">🇩🇪</span><span class="cn">Germany</span></div><div class="country-body">
+    <p>Civil registration 1874. Church books from 16th–17th c. Standesamt records under 110 yrs (births) / 80 yrs restricted. Key archives: Bundesarchiv, Landesarchive, Standesämter, Bistumsarchive, Landeskirchliche Archive.</p>
+    <p>For Volga Germans: Hauptarchiv der Rußlanddeutschen. For eastern provinces (Silesia, East Prussia): Standesamt Herne.</p>
+  </div></div>
+  <div class="country-block"><div class="country-header"><span class="cf">🇵🇱</span><span class="cn">Poland</span></div><div class="country-body">
+    <p>Three archival traditions by partition. Russian part: civil acts 1808 (Latin to 1826, Polish to 1868, Russian after). Prussian: Standesamt 1874. Austrian (Galicia): Latin church records from 1784.</p>
+    <p>Tools: szukajwarchiwach.gov.pl, geneteka.genealodzy.pl, AGAD Warsaw (pre-19th c.).</p>
+  </div></div>
+  <div class="country-block"><div class="country-header"><span class="cf">🇦🇹</span><span class="cn">Austria / Czech Republic / Slovakia</span></div><div class="country-body">
+    <p>Austria: registers from 16th c., civil registration only 1939. Digitised via Matricula. Czech Republic: ebadatelna.nacr.cz. Slovakia: Slovenský národný archív + FamilySearch.</p>
+  </div></div>
+  <div class="country-block"><div class="country-header"><span class="cf">🇮🇹</span><span class="cn">Italy</span></div><div class="country-body">
+    <p>Civil registration 1866. Records to 1910 via Antenati portal. Later records — request to Comune or Archivio di Stato. Mass emigration 1880–1930.</p>
+  </div></div>
+  <div class="country-block"><div class="country-header"><span class="cf">🇫🇷</span><span class="cn">France / Belgium / Netherlands</span></div><div class="country-body">
+    <p>France: civil registration 1792. Most files to 1902 digitised. francearchives.gouv.fr aggregates all regional archives. Netherlands: WieWasWie.nl covers collections to 1950.</p>
+  </div></div>
+  <div class="country-block"><div class="country-header"><span class="cf">🌊</span><span class="cn">Estonia · Latvia · Lithuania</span></div><div class="country-body">
+    <p>Complex heritage: records distributed between national archives, Polish, Russian and German archives (for Baltic Germans). Lithuania: LVIA — main source, archyvai.lt. Estonia: ra.ee. Latvia: lvva.lv.</p>
+  </div></div>
+  <div class="country-block"><div class="country-header"><span class="cf">☀️</span><span class="cn">Spain · Portugal · Greece</span></div><div class="country-body">
+    <p>Spain: civil registration 1871. Church books in Archivo Diocesano. FamilySearch: Catalonia, Aragon, Andalusia. Greece: Orthodox tradition, civil registration 1856. Portugal: digitarq.arquivos.pt.</p>
+  </div></div>
+</div>
+<div class="divider"><div class="divider-dot">✦</div></div>
+
+<div class="section" id="ix">
+  <div class="ch-marker"><span class="ch-n">Section IX</span><div class="ch-rule"></div></div>
+  <h2>IX. DNA genealogy: advanced level</h2>
+  <p class="dropcap">A genetic test is not a magic button. The result alone will not tell you who your ancestors were. But combined with documentary research it can break through a wall where archives are silent.</p>
+  <h3>Three types of analysis</h3>
+  <p>Autosomal test (atDNA): analyses DNA from all ancestors. Reliable to 5–6 generations back. The further the relationship, the less reliable.</p>
+  <p>Y-DNA test: passed strictly through the male line. Ideal for tracing the paternal line for centuries. Allows identification of a haplogroup and male relatives with the same surname.</p>
+  <p>Mitochondrial test (mtDNA): passed strictly through the female line. Useful for ethnic connections, but matches do not always indicate close kinship.</p>
+  <h3>Kinship table (centimorgans)</h3>
+  <table class="data-tbl"><tr><th>Range (cM)</th><th>Probable relationship</th><th>Note</th></tr>
+  <tr><td>2300–3900</td><td>Parent / child</td><td>Definitive</td></tr>
+  <tr><td>1700–2300</td><td>Full sibling</td><td>Definitive</td></tr>
+  <tr><td>575–1330</td><td>1st cousin</td><td>Needs confirmation</td></tr>
+  <tr><td>141–592</td><td>2nd cousin</td><td>Needs confirmation</td></tr>
+  <tr><td>33–173</td><td>3rd cousin</td><td>Ambiguous</td></tr>
+  <tr><td>6–71</td><td>4th cousin+</td><td>Very ambiguous</td></tr></table>
+  <p>Cluster analysis: the AutoClustering tool groups matches by shared segments. Each cluster is one branch of your tree.</p>
+  <p>Endogamy: in communities with high endogamy (Ashkenazi Jews, isolated islands) standard cM values do not apply. Specialised tools exist for such cases.</p>
+  <div class="note"><div class="note-label">The key principle</div><p>DNA points the direction, documents confirm the connection. No genetic test replaces archival evidence in a legal context.</p></div>
+</div>
+<div class="divider"><div class="divider-dot">✦</div></div>
+
+<div class="section" id="x">
+  <div class="ch-marker"><span class="ch-n">Section X</span><div class="ch-rule"></div></div>
+  <h2>X. Citizenship by descent: what you need to prove</h2>
+  <p class="dropcap">The documentary chain you build through genealogical research can have direct legal consequences. In several EU countries, descendants of citizens have the right to citizenship — provided the connection is documented.</p>
+  <div class="warn"><div class="warn-label">Legal disclaimer</div><p>Citizenship legislation changes. Information is current as of 2025. Before submitting documents, consult a lawyer specialising in citizenship for the specific country.</p></div>
+  <h3>Overview of programmes</h3>
+  <table class="data-tbl"><tr><th>Country</th><th>Legal basis</th><th>Key requirements</th><th>Specifics</th></tr>
+  <tr><td>Germany</td><td>§116 GG; BVFG / §6</td><td>§116: descendants stripped of citizenship under Nazis. BVFG: ethnic Germans from former USSR</td><td>BVFG: German B1. Apply to BVA</td></tr>
+  <tr><td>🇵🇱 Poland</td><td>Citizenship Act 2009; Karta Polaka</td><td>Unbroken chain of Polish citizens or Polish descent + cultural identity</td><td>Karta Polaka ≠ citizenship</td></tr>
+  <tr><td>🇮🇹 Italy</td><td>Jus sanguinis, Law 1912</td><td>Ancestor did not naturalise before next generation. No generational limit.</td><td>Women before 1948: court route</td></tr>
+  <tr><td>🇱🇹 Lithuania</td><td>Citizenship Act, art. 7</td><td>Ancestor was Lithuanian citizen before 1940. Up to 3rd generation.</td><td>Basic Lithuanian required</td></tr>
+  <tr><td>🇱🇻 Latvia</td><td>Citizenship Act, art. 3</td><td>Direct descendants of Latvian citizens before 1940</td><td>Dual citizenship mostly prohibited</td></tr>
+  <tr><td>🇮🇪 Ireland</td><td>INCA, art. 6A</td><td>Direct ancestor born in Ireland. Grandchildren: register in RFB.</td><td>Great-grandchildren: parent must also be in RFB</td></tr></table>
+  <h3>How a documentary chain is built</h3>
+  <p>Any programme requires an unbroken chain of documents from you to the ancestor-citizen. Each link is a birth (or baptism) certificate, marriage certificate (if the surname changed) and a document confirming the ancestor's citizenship.</p>
+  <div class="steps">
+    <div class="step"><div class="step-dot">1</div><div class="step-body"><div class="step-title">Establish the "entry point"</div><p class="step-text">Identify the specific ancestor through whom you are claiming citizenship. Establish when and why they held the right to that citizenship.</p></div></div>
+    <div class="step"><div class="step-dot">2</div><div class="step-body"><div class="step-title">Build the documentary chain</div><p class="step-text">Every step from you to the entry point must be supported by a document. Gaps in the chain are grounds for refusal.</p></div></div>
+    <div class="step"><div class="step-dot">3</div><div class="step-body"><div class="step-title">Apostille and translate documents</div><p class="step-text">All foreign documents require an apostille and a notarially certified translation into the language of the country where you are applying.</p></div></div>
+    <div class="step"><div class="step-dot">4</div><div class="step-body"><div class="step-title">Apply through the correct authority</div><p class="step-text">Germany: BVA or embassy. Italy: consulate in your country of residence. Lithuania/Latvia: Department of Citizenship. Ireland: Ministry of Justice.</p></div></div>
+  </div>
+  <div class="note"><div class="note-label">Genealogist or lawyer?</div><p>For complex cases: a certified genealogist (VdF or AGG in Germany, BCG in the USA) for building the chain, and a citizenship lawyer for preparing the application. This significantly reduces the risk of refusal.</p></div>
+</div>
+
+</div>
+<div class="footer">
+  <div class="footer-logo">MAPA'S</div>
+  <p class="footer-copy">© 2025 · European Ancestry Research Guide by MAPA'S</p>
+</div>
+<script>
+window.addEventListener('scroll',function(){var d=document.documentElement,s=d.scrollTop||document.body.scrollTop,h=d.scrollHeight-d.clientHeight;document.getElementById('progress').style.width=(h>0?(s/h)*100:0)+'%'});
+document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}})});
+</script>
+
+<a href="/glossary" class="glossary-cta">Open Glossary →</a>
+
+
+
+</body>
+</html>
